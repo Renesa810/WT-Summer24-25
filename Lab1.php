@@ -32,7 +32,6 @@
         <tr><td></td><td><input type="submit" value="Register"></td></tr>
 </table>
 
-
     </form>
 
     
