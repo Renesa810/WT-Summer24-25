@@ -1,0 +1,306 @@
+
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdfaf6;
+    color: #333;
+}
+
+form{
+    background-color:rgba(255, 200, 150, 0.9) ;
+    width:350px;
+    padding:30px;
+    margin: 30px 480px;
+    border-radius: 10px;
+    color: #333;
+}
+
+label{
+     font-weight: bold;
+     display:inline-block;
+    margin: 5px 0;
+}
+
+
+input[type="text"],input[type="email"],input[type="number"]{
+    padding: 10px;
+    width:95%;
+    margin: 10px 0 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/*-------------------------------------------------------------------------------------*/
+.cards1{
+    display: flex;  
+    gap: 20px;
+    margin-bottom: 25px; /* gap between row1 and row2 */
+}
+
+.cards2{
+    display: flex;  
+    gap: 20px;
+}
+
+.card1{
+    margin-bottom: auto;
+    min-width: 200px;
+    padding: 20px;
+    background: #5AB4F0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card2{
+    margin-bottom: auto;
+    min-width: 200px;
+    padding: 20px;
+    background: #75FA61;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card3{
+    margin-bottom: auto;
+    min-width: 200px;
+    padding: 20px;
+    background: #EF88BE;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card4{
+    margin-bottom: auto;
+    min-width: 200px;
+    padding: 20px;
+    background: #9B66E8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+
+.topbar{
+    display: flex;   
+    justify-content: space-between;   /*take sapce login and register*/
+    background-color: #F09B59;
+    color: white;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);  /*Horizontal offset (X-axis),Vertical offset (Y-axis),Blur radius,Shadow color */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+h1{
+    margin:0;
+    font-size: 24px;;
+}
+
+a {
+    margin-left:20px;
+    font-size: 18px;
+    color: white; 
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {    /* changes the text color of the link to a dark bluish color while hovering*/
+    color:  #FFDAB9;
+}
+
+
+.right{
+    text-align: right;
+
+}
+
+.right a{
+    color: #8E403A;
+        font-size: 25px;
+        text-decoration: none;
+
+}
+
+.right a:hover{
+    color: #EB3324;
+
+}
+
+
+#search{
+    font-size: 15px;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+}
+
+
+.under{
+    display: flex;
+    padding: 10px 20px;
+    background: #f4f4f4;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    position: sticky;
+
+}
+
+.under a{
+
+    text-decoration: none;
+    color: blue;
+}
+
+.under a:hover{
+
+    text-decoration: none;
+    color:blueviolet;
+}
+
+.shop{
+    margin: 0;
+}
+
+.link{
+        margin-left:300px;
+}
+
+
+.container {
+    display: flex;          /* menu + dashboard side by side */
+    align-items: flex-start; /* align both at the top */
+    height: auto;
+
+}
+
+.navbar {
+
+    width: 220px;
+    /*min-height: 100vh;*/
+    height: 430px;
+    display: flex;
+    flex-direction: column;  /* stack links vertically */
+    align-items: flex-start; /* align to left */
+    gap: 30px;    /* vertical link gap */
+    padding-left: 20px;      /* space from left edge */
+    background: #f4f4f4;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+}
+
+.product-table {
+    display: flex;
+    justify-content: center;  /* centers horizontally */
+    margin-top: 20px;         /* add some space above */
+}
+
+.product-table table {
+    border-collapse: collapse; /* makes borders clean */
+    width: auto;               /* shrink to fit content */
+    text-align: center;        /* center text inside cells */
+}
+
+
+
+.navbar a  {
+    margin: 0 20px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+    text-decoration: none;    
+}
+
+.navbar a:hover {    /* changes the text color of the link to a dark bluish */
+    color: #0023F5;
+
+}
+
+
+.logout-container {
+    width: 100%;
+    text-align: left;   
+    margin: 180px 0;
+    padding-left: 20px; /* add spacing from the edge */
+}
+ 
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;  
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+}
+
+
+.product{
+    width: 40%;      
+    margin: 70px 0 70px 100px;
+    text-align: left;
+}
+
+.product-section1{
+    display: flex;  
+    gap: 30px;        
+    margin-bottom: 45px; 
+    justify-content: flex-start;  /* align items to the left */
+}
+
+.product-section2{
+    display: flex;  
+    gap: 30px;       
+    margin-bottom: 45px; 
+    justify-content: flex-start;  /* align items to the left */
+}
+
+.product-section3{
+    display: flex;  
+    gap: 30px;       
+    margin-bottom: 45px; 
+    justify-content: flex-start;  /* align items to the left */
+}
+
+
+.product-section4{
+    display: flex;  
+    gap: 30px;       
+    margin-bottom: 45px; 
+    justify-content: flex-start;  /* align items to the left */
+}
+
+
+
+.product-card{
+    margin-bottom: auto;
+    min-width: 160px;
+    height: 280px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+.price{
+    font-weight: bold;
+    color: red;
+}
+
+
+h2{
+    color: #FF6600;
+}
